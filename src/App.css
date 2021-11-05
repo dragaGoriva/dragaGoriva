@@ -77,4 +77,10 @@
         flex-direction: column-reverse;
         align-items: center;
     }
+    .Station {
+        width: 100%;
+    }
+    .searchbar {
+        width: 95%;
+    }
 }

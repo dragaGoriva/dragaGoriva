@@ -75,12 +75,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="search">
-        <input type="text" className="searchbar" onChange={(e) => this.handleSearchChange(e)} placeholder="Search"/>
-        <div className="StationWrap">
-        {data.map((b, index) => {
-          return <Station stationData={b} onSelectStation={this.selectStation}/>
-        })}
-        </div>
+          <input type="text" className="searchbar" onChange={(e) => this.handleSearchChange(e)} placeholder="Search"/>
+          <div className="StationWrap">
+          {data.map((b, index) => {
+            return <Station stationData={b} onSelectStation={this.selectStation}/>
+          })}
+          </div>
         </div>
         <div className="chart">
           <div>{this.state.selected.name}</div>
