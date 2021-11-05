@@ -75,14 +75,14 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="search">
-        <input type="text" onChange={(e) => this.handleSearchChange(e)}/>
-        <div style={{maxHeight:"90vh", overflow: "scroll", width:"400px"}}>
+        <input type="text" className="searchbar" onChange={(e) => this.handleSearchChange(e)} placeholder="Search"/>
+        <div className="StationWrap">
         {data.map((b, index) => {
           return <Station stationData={b} onSelectStation={this.selectStation}/>
         })}
         </div>
         </div>
-        <div className="chart" style={{width:"100%"}}>
+        <div className="chart">
           <div>{this.state.selected.name}</div>
           <Line data={dataChart} options={options} />
         </div>

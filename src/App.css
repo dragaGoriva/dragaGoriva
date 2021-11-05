@@ -1,10 +1,10 @@
 .App {
     /* text-align: center; */
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     /* flex-direction: row; */
     /* align-items: center; */
-    /* width: 100%; */
+    width: 100%;
 }
 
 .App-logo {
@@ -42,6 +42,16 @@
     }
 }
 
+.chart {
+    width: 100%;
+}
+
+.StationWrap {
+    max-height: 97vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 .Station {
     background-color: beige;
     width: 400px;
@@ -55,4 +65,16 @@
 
 #Name {
     font-weight: 800;
+}
+
+.searchbar {
+    height: 30px;
+    width: 420px;
+}
+
+@media screen and (max-width: 600px) {
+    .App {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
