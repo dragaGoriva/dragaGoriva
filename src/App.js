@@ -2,7 +2,6 @@ import React from 'react'
 // import ReactDOM from 'react-dom'
 // import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 import { Line } from 'react-chartjs-2';
-import logo from './logo.svg';
 import './App.css';
 import datas from './jsonDataAll.json';
 import Station from './components/station';

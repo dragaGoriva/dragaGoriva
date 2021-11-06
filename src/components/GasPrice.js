@@ -1,15 +1,15 @@
 import React from 'react'
 
 class GasPrice extends React.Component {
-  constructor(props) {
-    super(props);
-    // gasKey
-    // price
+  // constructor(props) {
+  //   super(props);
+  //   // gasKey
+  //   // price
  
-    // this.state = {
-    //   isShow: true,
-    // };
-  }
+  //   // this.state = {
+  //   //   isShow: true,
+  //   // };
+  // }
 
   render() {
 
