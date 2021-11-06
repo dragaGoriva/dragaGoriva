@@ -13,7 +13,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       searchString: "",
-      selected: datas.results[0]
+      selected: datas.results[0],
+      selectedId: datas.results[0].pk
     };
 
     // this.searchString = this.searchString.bind(this);
@@ -28,7 +29,8 @@ class App extends React.Component {
 
   selectStation = (data) => {
     this.setState({
-      selected: data
+      selected: data,
+      selectedId: data.pk
     });
   }
 
@@ -78,7 +80,7 @@ class App extends React.Component {
           <input type="text" className="searchbar" onChange={(e) => this.handleSearchChange(e)} placeholder="Search"/>
           <div className="StationWrap">
           {data.map((b, index) => {
-            return <Station stationData={b} onSelectStation={this.selectStation}/>
+            return <Station stationData={b} onSelectStation={this.selectStation} selectedId={this.state.selectedId}/>
           })}
           </div>
         </div>

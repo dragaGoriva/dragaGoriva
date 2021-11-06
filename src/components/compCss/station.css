@@ -1,0 +1,46 @@
+.Station {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 8px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3px 3px;
+    background-color: #f2f2f2;
+}
+
+#Name {
+    font-weight: 800;
+}
+
+.prices {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+
+.gasPrice {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    align-items: center;
+    /* padding: 2px 10px; */
+    margin: 5px 5px;
+}
+
+#price {
+    font-weight: 800;
+    margin: 2px 5px;
+}
+#key {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin: 0px 5px;
+    background-color: #0276ee;
+    color: white;
+
+}
