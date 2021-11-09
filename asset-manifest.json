@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dragaGoriva/static/css/main.0d8a1476.chunk.css",
+    "main.css": "/dragaGoriva/static/css/main.de9f3ce6.chunk.css",
     "main.js": "/dragaGoriva/static/js/main.73f8bc85.chunk.js",
     "main.js.map": "/dragaGoriva/static/js/main.73f8bc85.chunk.js.map",
     "runtime-main.js": "/dragaGoriva/static/js/runtime-main.62f0c77c.js",
@@ -10,13 +10,13 @@
     "static/js/3.86038822.chunk.js": "/dragaGoriva/static/js/3.86038822.chunk.js",
     "static/js/3.86038822.chunk.js.map": "/dragaGoriva/static/js/3.86038822.chunk.js.map",
     "index.html": "/dragaGoriva/index.html",
-    "static/css/main.0d8a1476.chunk.css.map": "/dragaGoriva/static/css/main.0d8a1476.chunk.css.map",
+    "static/css/main.de9f3ce6.chunk.css.map": "/dragaGoriva/static/css/main.de9f3ce6.chunk.css.map",
     "static/js/2.334d9009.chunk.js.LICENSE.txt": "/dragaGoriva/static/js/2.334d9009.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.62f0c77c.js",
     "static/js/2.334d9009.chunk.js",
-    "static/css/main.0d8a1476.chunk.css",
+    "static/css/main.de9f3ce6.chunk.css",
     "static/js/main.73f8bc85.chunk.js"
   ]
 }
