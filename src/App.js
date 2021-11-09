@@ -274,6 +274,11 @@ class App extends React.Component {
                   })
                   return arr.join(", ")
                 }}
+                MenuProps= {{
+                  style: {
+                    maxHeight: "70vh",
+                  }
+                }}
               >
                 {names.map((name) => (
                   <MenuItem key={name.name} value={name.pk}>
