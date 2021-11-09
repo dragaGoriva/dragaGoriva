@@ -79,7 +79,7 @@
         align-items: center;
     }
     .leftSide {
-        /* max-height: 100% */
+        width: auto;
     }
     /* .Station {
         width: 100%;
