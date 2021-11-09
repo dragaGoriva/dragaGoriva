@@ -1,0 +1,164 @@
+[
+    {
+      "pk": 1,
+      "name": "Petrol",
+      "marker": "https://goriva.si/media/images/markers/Pin_goriva-si_Petrol_P_osnovni.png",
+      "marker_hover": "https://goriva.si/media/images/markers/Pin_goriva-si_Petrol_P_hover.png"
+    },
+    {
+      "pk": 2,
+      "name": "OMV Slovenija",
+      "marker": "https://goriva.si/media/images/markers/omv.png",
+      "marker_hover": "https://goriva.si/media/images/markers/omv_As5TQUA.png"
+    },
+    {
+      "pk": 3,
+      "name": "M – ENERGIJA",
+      "marker": "https://goriva.si/media/images/markers/Maxen_Marker.png",
+      "marker_hover": "https://goriva.si/media/images/markers/Maxen_Marker_T09VNh5.png"
+    },
+    {
+      "pk": 4,
+      "name": "MOL",
+      "marker": "https://goriva.si/media/images/markers/mol.png",
+      "marker_hover": "https://goriva.si/media/images/markers/mol_NNpzHmw.png"
+    },
+    {
+      "pk": 5,
+      "name": "Shell Adria",
+      "marker": "https://goriva.si/media/images/markers/Shell_Icon_Marker2-02.png",
+      "marker_hover": "https://goriva.si/media/images/markers/Shell_Icon_Marker2-02_6GShYSj.png"
+    },
+    {
+      "pk": 6,
+      "name": "EKO-NAFTA",
+      "marker": "https://goriva.si/media/images/markers/marker_eko_nafta.png",
+      "marker_hover": "https://goriva.si/media/images/markers/marker_hover_eko_nafta.png"
+    },
+    {
+      "pk": 7,
+      "name": "LOGO",
+      "marker": "https://goriva.si/media/images/markers/marker1.png",
+      "marker_hover": "https://goriva.si/media/images/markers/marker_hover1.png"
+    },
+    {
+      "pk": 9,
+      "name": "TehnoSTOR",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 10,
+      "name": "Butan plin",
+      "marker": "https://goriva.si/media/images/markers/marker-ButanPlin.png",
+      "marker_hover": "https://goriva.si/media/images/markers/marker-ButanPlin_2vSxoE6.png"
+    },
+    {
+      "pk": 11,
+      "name": "ECO OIL",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 12,
+      "name": "INA Slovenija",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 13,
+      "name": "FE - Trading",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 14,
+      "name": "West oil",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 15,
+      "name": "DISCONT Oil",
+      "marker": "https://goriva.si/media/images/markers/novi_logo.png",
+      "marker_hover": "https://goriva.si/media/images/markers/novi_logo_6itifJQ.png"
+    },
+    {
+      "pk": 16,
+      "name": "Agas",
+      "marker": "https://goriva.si/media/images/markers/agas.png",
+      "marker_hover": "https://goriva.si/media/images/markers/agas_QYekoep.png"
+    },
+    {
+      "pk": 17,
+      "name": "HOJNIK Oil",
+      "marker": "https://goriva.si/media/images/markers/hojnik_oil.png",
+      "marker_hover": "https://goriva.si/media/images/markers/hojnik_oil_BhFK2DM.png"
+    },
+    {
+      "pk": 18,
+      "name": "Merkantil",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 19,
+      "name": "LOGO BENCINSKI SERVISI",
+      "marker": "https://goriva.si/media/images/markers/marker1_cMK7NAq.png",
+      "marker_hover": "https://goriva.si/media/images/markers/marker_hover1_VZePnhy.png"
+    },
+    {
+      "pk": 21,
+      "name": "Mini Marketing d.o.o. Stranice",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 22,
+      "name": "BS Demol",
+      "marker": "https://goriva.si/media/images/markers/Lokacija_logo_DEMOL_blue.png",
+      "marker_hover": "https://goriva.si/media/images/markers/Lokacija_logo_DEMOL_blue_mivj8hv.png"
+    },
+    {
+      "pk": 23,
+      "name": "Panvita kmetijstvo",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 24,
+      "name": "Postonjske mesnine oil",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 25,
+      "name": "URMA",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 26,
+      "name": "EKSTRA OLJE",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 27,
+      "name": "AVTOTRANSPORT KOVAČIČ",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 28,
+      "name": "BENCINSKI SERVIS BUČAR",
+      "marker": null,
+      "marker_hover": null
+    },
+    {
+      "pk": 29,
+      "name": "Mi oskrba",
+      "marker": "https://goriva.si/media/images/markers/markerMiOskrba_1.png",
+      "marker_hover": "https://goriva.si/media/images/markers/markerMiOskrba_1_DiETwTr.png"
+    }
+  ]

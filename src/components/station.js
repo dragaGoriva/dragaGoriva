@@ -21,7 +21,7 @@ class Station extends React.Component {
   render() {
 
     return (
-      <div className="Station" onClick={this.selection} style={this.props.selectedId === this.props.stationData.pk ? {backgroundColor:"#dddddd"}: {}}>
+      <div className="Station" onClick={this.selection} style={this.props.selectedId === this.props.stationData.pk ? {backgroundColor:"#d3d3d3"}: {}}>
         <div id="Name">{this.props.stationData.name} </div>
         <div id="Address">{this.props.stationData.address}</div>
         <div className="prices">
