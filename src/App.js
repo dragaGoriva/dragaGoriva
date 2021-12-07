@@ -28,10 +28,21 @@ class App extends React.Component {
       stationName: [],
       fuelType: [],
       myPos: undefined,
-      distanceValue: 0
+      distanceValue: 0,
+      allData: undefined
     };
+  }
 
-    // this.searchString = this.searchString.bind(this);
+  componentDidMount() {
+    if(this.state.allData === undefined) {
+      fetch("https://raw.githubusercontent.com/dragaGoriva/dragaGoriva/main/src/jsonDataAll.json").then(res => {
+        // console.log("res", res.json());
+        // this.setState({allData: res.json()});
+        return res.json();
+      }).then(myJson => {
+        this.setState({allData: myJson});
+      })
+    }
   }
 
   handleSearchChange(e) {
@@ -226,8 +237,8 @@ class App extends React.Component {
         }
       }
     };
-
-    let data = datas.results.filter((d, i) => {
+    
+    let data = this.state.allData !== undefined ? this.state.allData.results.filter((d, i) => {
       let hasThisFuel = [false];
       if (this.state.fuelType.length > 0) {
         hasThisFuel = this.state.fuelType.map((f, i) => {
@@ -247,7 +258,7 @@ class App extends React.Component {
         (this.state.stationName.length > 0 ? this.state.stationName.indexOf(d.franchise) !== -1 : true) &&
         (this.state.fuelType.length > 0 ? hasThisFuel : true) &&
         (this.state.myPos !== undefined ? this.CalculateDistance(d.lat, d.lng) : true)
-    })
+    }) : undefined;
 
 
     return (
@@ -338,9 +349,9 @@ class App extends React.Component {
 
           </div>
           <div className="StationWrap">
-            {data.map((b, index) => {
+            {data !== undefined ? data.map((b, index) => {
               return <Station stationData={b} onSelectStation={this.selectStation} selectedId={this.state.selectedId} />
-            })}
+            }) : <div></div>}
           </div>
         </div>
         <div className="chart">
