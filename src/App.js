@@ -41,6 +41,8 @@ class App extends React.Component {
         return res.json();
       }).then(myJson => {
         this.setState({allData: myJson});
+        this.setState({ selected: myJson.results[0] })
+        this.setState({ selectedId: myJson.results[0] }.pk)
       })
     }
   }
@@ -355,8 +357,8 @@ class App extends React.Component {
           </div>
         </div>
         <div className="chart">
-          <div>{this.state.selected.name}</div>
-          <Line data={dataChart} options={options} />
+            <div>{this.state.selected.name}</div>
+            {this.state.allData === undefined ? <div></div> : <Line data={dataChart} options={options} />}
         </div>
       </div>
     )
