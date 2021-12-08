@@ -3,7 +3,6 @@ import React from 'react'
 // import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 import { Line } from 'react-chartjs-2';
 import './App.css';
-import datas from './jsonDataAll.json';
 import names from './stationNames.json';
 import Station from './components/station';
 
@@ -23,8 +22,16 @@ class App extends React.Component {
     super(props);
     this.state = {
       searchString: "",
-      selected: datas.results[0],
-      selectedId: datas.results[0].pk,
+      selectedId: 0,
+      selected: {
+        address: "",
+        franchise: -1,
+        lat: -1,
+        lng: -1,
+        name: "",
+        pk: -1,
+        prices: [{}]
+      },
       stationName: [],
       fuelType: [],
       myPos: undefined,
